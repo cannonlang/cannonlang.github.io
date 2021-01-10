@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- https://getbootstrap.com/docs/4.4/components/alerts/ -->
+
+<html>
+  <head>
+    <title>Cannon Lang</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:site_name" content="Cannon Lang" />
+    <meta property="og:title" content="Cannon Programming Language" />
+    <meta property="og:description" content="Official website for the Cannon Programming language project." />
+    <meta property="og:image" content="https://media.discordapp.net/attachments/706554836572831834/797915031899340861/unknown.png" />
+    <meta property="og:type" content="website" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <a class="navbar-brand" href="#"><img src="static/logolong.png" height="60px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item push10">
+            <a class="btn btn-lg btn-danger" target="__blank" href="https://github.com/orgs/cannonlang">GitHub</a>
+          </li>
+          <li class="nav-item push10">
+            <a class="btn btn-lg btn-danger" target="__blank" href="https://discord.gg/GWywaN5">Discord</a>
+          </li>
+          <li class="nav-item push10">
+            <a class="btn btn-lg btn-danger" target="__blank" href="https://drive.google.com/drive/folders/1wRno7vfVN7MWk8VjSRtZc3SSNacMF-Ya?usp=sharing">CORE Meeting Minutes</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="bg-light">
+      <br><br><br><br><br><br><br><br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="thin" style="font-size: 60px;">Cannon Programming Language</h1>
+            <br>
+            <p class="center">
+              <a href="https://discord.gg/GWywaN5" class="btn btn-lg btn-outline-danger" style="margin:15px">Join Our Discord Server</a>
+              <a href="https://github.com/orgs/cannonlang" class="btn btn-lg btn-outline-primary" style="margin:15px">View Our GitHub Org</a>  
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p class="center">
+              <img src="static/logo.png" alt="" height="250px">
+            </p>
+          </div>
+        </div>
+      </div>
+      <br><br>  
+    </div>
+    <div class="container">
+      <br><br><br>
+      <h1 class="thin">About The Project</h1>
+      <br>
+      <p>The Cannon Programming Language is currently in early development.</p>
+      <p>If you would like to contribute, please consider <a href="https://discord.gg/GWywaN5">joining our Discord server</a> or <a href="https://github.com/orgs/cannonlang">taking a look at out GitHub Orgnaization</a></p>
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+
+
+
+    <!--Scripts: DO NOT TOUCH!-->
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
+    <script>
+        var wow = new WOW(
+      {
+        boxClass:     'wow',      // animated element css class (default is wow)
+        animateClass: 'animated', // animation css class (default is animated)
+        offset:       0,          // distance to the element when triggering the animation (default is 0)
+        mobile:       true,       // trigger animations on mobile devices (default is true)
+        live:         true,       // act on asynchronously loaded content (default is true)
+        callback:     function(box) {
+          // the callback is fired every time an animation is started
+          // the argument that is passed in is the DOM node being animated
+        },
+        scrollContainer: null // optional scroll container selector, otherwise use window
+      }
+    );
+    wow.init();  
+    </script>  
+  </body>
+</html>
